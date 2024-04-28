@@ -1,0 +1,101 @@
+.section-container {
+    height: 400px;
+    width: 500px;
+    border-radius: 5px;
+    position: absolute;
+    right: 0;;
+    margin: 0;
+}
+
+.intro-code-card {
+    position: absolute;
+    background-color: white;
+    height: 255px;
+    width: 450px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(107, 222, 226, 0.6);
+    right: 0px;
+    top: 60px;
+}
+
+.palette {
+    left: 20px;
+    bottom: 35px;
+    position: absolute;
+    background-color: rgb(235, 235, 228);
+    padding: 10px 5px 10px 10px;
+    box-shadow: 2px 2px 2px rgba(107, 222, 226, 0.6);
+    border-radius: 5px;
+    
+}
+
+.box {
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.info {   
+    width:80px;
+    padding:10px;
+    background:rgba(255,255,255,1);
+    text-align: center;
+    border-radius:3px;
+    position:absolute;
+    visibility:hidden;
+    margin:80px 0 0 20px;
+    
+}
+
+.box:hover .info {visibility:visible;}
+
+#one:hover .info {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2); 
+}
+
+#two:hover .info {
+    box-shadow: 3px 3px 3px rgba(188, 179, 254, 1); 
+}
+
+#three:hover .info {
+    box-shadow: 3px 3px 3px rgba(144, 255, 141, 1); 
+}
+
+#four:hover .info {
+    box-shadow: 3px 3px 3px rgba(255, 141, 218, 1); 
+}
+
+#five:hover .info {
+    box-shadow: 3px 3px 3px rgba(107, 222, 226, 1); 
+}
+
+#one {
+    background-color: #f0f8ff;
+    box-shadow: 2px 2px 2px rgba(240, 248, 255, 0.5);
+}
+
+
+#two {
+    background-color: #bcb3fe;
+    box-shadow: 2px 2px 2px rgba(188, 179, 254, 0.5);
+
+}
+
+#three {
+    background-color: #90ff8d;
+    box-shadow: 2px 2px 2px rgba(144, 255, 141, 0.5);
+
+}
+
+#four {
+    background-color: #ff8dda; 
+    box-shadow: 2px 2px 2px rgba(255, 141, 218, 0.5);
+}
+
+#five {
+    background-color: #6bdee2;
+    box-shadow: 2px 2px 2px rgba(107, 222, 226, 0.5);
+}
+

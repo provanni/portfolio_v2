@@ -1,13 +1,124 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: aliceblue;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  
+}
+
+.navpage:hover {
+  background-color: rgba(107, 222, 226, 0.5);
+}
+
+.navpage:active {
+  background-color: #bcb3fe;
+}
+
+.icon:hover{
+  color: #bcb3fe;
+}
+
+
+h1 {
+  font-family: 'Roboto';
+}
+
+p {
+  font-family: 'Raleway';
+}
+
+.icon {
+  font-size: 35px;
+  margin: 10px 8px 5px;
+  color:rgba(34, 69, 71);
+}
+
+button {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #90ff8d;
+  box-shadow: 2px 2px 2px rgba(107, 222, 226, 0.6);
+}
+
+button:hover {
+  background-color: #ff8dda;
+}
+
+button:active {
+  box-shadow: 2px 2px 2px rgba(144, 255, 141, 0.5);
+  color: #90ff8d;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+mark {
+  -webkit-animation: 1s highlight 1s 1 normal forwards;
+          animation: 1s highlight 1s 1 normal forwards;
+  background-color: none;
+  background: linear-gradient(90deg, #90ff8d 50%, rgba(255, 255, 255, 0) 50%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+}
+
+@-webkit-keyframes highlight {
+  to {
+    background-position: 0 0;
+  }
+}
+
+@keyframes highlight {
+  to {
+    background-position: 0 0;
+  }
+}
+
+@media (max-width: 1000px){
+
+  .navpage {
+    margin-bottom: 5px;
+  }
+
+  .app {
+    margin-left: calc(10px + 2.5vw)  !important;
+  }
+
+}
+
+@media (max-width: 1400px) {
+
+  .palette-container {
+    display: none;
+  }
+
+  nav {
+    display: grid;
+    
+  }
+
+  .intro-container {
+    max-width: 100% !important;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+    border: 2px dotted #ff8dda;
+    border-radius: 10px;
+    margin-bottom: 50px;
+  }
+  
 }
