@@ -1,0 +1,10 @@
+.project {
+    width: 60vw;
+    height: 35vw;
+    background-color: rgba(147, 225, 151, 0.15);
+    margin: 4vw;
+}
+
+.projectinfo {
+    padding: 20px 50px;
+}

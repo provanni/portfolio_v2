@@ -1,0 +1,12 @@
+.card {
+    width: 260px;
+    height: 350px;
+    box-shadow: 10px 10px  rgba(107, 226, 113, 0.6);
+    background-color: rgba(200, 167, 252, 0.15);
+    margin: 15px 20px;
+
+}
+
+.content {
+    padding: 10px 20px;
+}

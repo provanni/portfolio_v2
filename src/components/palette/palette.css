@@ -40,7 +40,7 @@
 .info {   
     width:80px;
     padding:10px;
-    background:rgba(255,255,255,1);
+    background:var(--palette-color-info);
     text-align: center;
     border-radius:3px;
     position:absolute;

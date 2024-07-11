@@ -1,0 +1,33 @@
+{
+    "projects":  [
+        {
+            "title": "Icy Insights",
+            "link": "https://github.com/jessica2673/Icy-Insights",
+            "subtitle": "ElleHacks 2024",
+            "content": "My team created Icy Insights at the 2024 ElleHacks Hackathon. We built Icy Insights using a combination of React and the MUI Component Library for the frontend to create a dynamic and responsive user interface, and Node.js for the backend to handle routing and API requests. For mapping functionality, we integrated the Google Maps API to display maps and routes. The core feature of our application, identifying the safest routes, was developed by leveraging city and live snow plow data to assess road conditions and plow coverage. We processed this data using algorithms designed to evaluate route safety based on data such as snow clearance levels and high-risk intersections to recommend the most suitable path for commuting during winter conditions.",
+            "tech": "Technologies: React, node.js, mongodb, express.js, Google Maps API, MUI Component Library"
+        },
+        {
+            "title": "TOShelter",
+            "link": "https://github.com/provanni/ElleHacks2019",
+            "subtitle": "ElleHacks 2019",
+            "content": "Our team created an accessible online platform for homeless individuals in Toronto to locate and reserve shelter beds, while also enabling citizens and organizations to assist and coordinate efforts to address homelessness. The application shows the beds available in nearby shelters, allows the user to reserve a bed, or contact the organization. Citizens have the option to list their home and offer a bed to a person in need through the website. Organizations and hospitals can use this platform to communicate availability in their shelters to avoid overcrowding.",
+            "tech": "Technologies: Google Maps API, HTML/CSS, JavaScript"
+        },
+        {
+            "title": "test3",
+            "link": "#",
+            "subtitle": "test3",
+            "content": "test3",
+            "tech": "Technologies: MERN Stack"
+        },
+        {
+            "title": "test4",
+            "link": "#",
+            "subtitle": "test4",
+            "content": "test4",
+            "tech": "Technologies: MERN Stack"
+        }
+    ]
+
+}

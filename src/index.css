@@ -6,7 +6,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: aliceblue;
+}
+
+.theme-light {
+  --background-color: aliceblue;
+  --body-text-color: black;
+  --nav-text-color: black;
+  --palette-color: rgb(235, 235, 228, 1);
+  --palette-color-info: rgba(255,255,255,1);
+}
+
+.theme-dark {
+  --dark-text: #292929;
+  --light-text: #F9F8F8;  
+  --dark-background: #192642;
+  --light-background: #586F7C;
+  --accent: #B8DBD9;
+  --button-border: #B8DBD9;
 }
 
 
@@ -100,7 +116,7 @@ mark {
 
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1300px) {
 
   .palette-container {
     display: none;
